@@ -1,0 +1,28 @@
+{
+  "name": "ami-resolver",
+  "version": "1.0.0",
+  "description": "🎡 Resolves AMI images available in multiple AWS regions given a base AMI name or identifier.",
+  "main": "index.js",
+  "bin": {
+    "ami-resolver": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/HQarroum/ami-resolver",
+  "keywords": [
+    "ami",
+    "ec2",
+    "cli"
+  ],
+  "author": "Halim Qarroum <hqm.post@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/HQarroum/ami-resolver",
+  "dependencies": {
+    "aws-sdk": "^2.1101.0",
+    "commander": "^2.20.3",
+    "joi": "^14.3.1",
+    "middleware-chain-js": "^1.0.9",
+    "promise-pool-js": "^1.0.1"
+  }
+}
